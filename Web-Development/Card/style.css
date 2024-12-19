@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #febecc;
+}
+.box {
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  margin: 150px auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 35px black;
+}
+.picdiv {
+  background-color: #fedcdb;
+  height: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.pic {
+  margin-top: 10px;
+  margin-left: 80px;
+  height: 140px;
+}
+#airpods {
+  margin-bottom: -30px;
+  padding: 20px;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+#p1 {
+  font-size: 15px;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+#price {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+#button {
+  font-size: 1rem;
+  margin-top: 2px;
+  margin-left: 105px;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 90px;
+  color: #fff;
+  background-color: #fd788b;
+  text-align: center;
+}
