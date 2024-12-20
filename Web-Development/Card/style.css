@@ -57,4 +57,9 @@ body {
   color: #fff;
   background-color: #fd788b;
   text-align: center;
+   cursor: pointer;
+}
+#button:hover {
+  background-color: #de6161;
+  color: rgb(255, 255, 255);
 }
