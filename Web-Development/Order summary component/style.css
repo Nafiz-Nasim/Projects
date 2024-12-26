@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", serif;
+  min-height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 98%);
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text {
+  padding: 7%;
+  text-align: center;
+}
+
+.text h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 32px;
+  font-weight: 900px;
+  margin-bottom: 20px;
+}
+.text p {
+  color: black;
+  margin-bottom: 20px;
+}
+.music_part {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+.music_logo_part_left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.music_logo_part_left div {
+  margin-left: 20px;
+}
+.music_part a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+.music_logo_part_left div h5 {
+  font-weight: 900;
+  font-size: 15px;
+  color: hsl(223, 47%, 23%);
+}
+.music_logo_part_left div p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+
+.aaa {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+a.process {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  transition: background-color 0.3s ease;
+}
+a.process:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+a.cancel {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900px;
+  transition: color 0.3s ease;
+}
+
+a.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.footer{
+   display: flex;
+   justify-content: center;
+        
+}
+@media only screen and (max-width:425px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+    .container{
+    max-width: 87%;
+    }
+    
+    }
+    
